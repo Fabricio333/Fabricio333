@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="150" viewBox="0 0 140 150">
+<defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+<style>
+  .float{animation:float 5s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  
+    .bd{transform-box:fill-box;transform-origin:center;animation:bbr 3s ease-in-out infinite}
+    @keyframes bbr{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.78);opacity:.75}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g transform="translate(16 20)"><g class="float">
+  <clipPath id="bc"><rect width="108" height="108" rx="24"/></clipPath>
+  <rect x="4" y="12" width="100" height="104" rx="24" fill="#000" opacity="0.45" filter="url(#shadow)"/>
+  <g clip-path="url(#bc)">
+    <rect width="108" height="108" fill="#0c0c11"/>
+    <defs><filter id="bg" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <g><animateTransform attributeName="transform" type="rotate" from="0 54 54" to="360 54 54" dur="9s" repeatCount="indefinite"/>
+      <circle class="bd" style="animation-delay:0.0s" cx="37.80" cy="25.94" r="8.64" fill="#8B5CF6" filter="url(#bg)"/><circle class="bd" style="animation-delay:-0.5s" cx="70.20" cy="25.94" r="8.64" fill="#06B6D4" filter="url(#bg)"/><circle class="bd" style="animation-delay:-1.0s" cx="86.40" cy="54.00" r="8.64" fill="#10B981" filter="url(#bg)"/><circle class="bd" style="animation-delay:-1.5s" cx="70.20" cy="82.06" r="8.64" fill="#EC4899" filter="url(#bg)"/><circle class="bd" style="animation-delay:-2.0s" cx="37.80" cy="82.06" r="8.64" fill="#F59E0B" filter="url(#bg)"/><circle class="bd" style="animation-delay:-2.5s" cx="21.60" cy="54.00" r="8.64" fill="#EAB308" filter="url(#bg)"/>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="106.5" height="106.5" rx="23.3" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+</g></g>
+</svg>

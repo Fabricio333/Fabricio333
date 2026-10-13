@@ -1,100 +1,73 @@
-<!-- Header -->
+<a href="https://fabriok.ar"><img src="assets/banner.svg" width="100%" alt="Fabricio Acosta: economics, tech and biohacking. fabriok.ar" /></a>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a7f37,100:3fb950&height=200&section=header&text=Fabricio%20Acosta&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Building%20sovereign%20software%20on%20Nostr%20%2B%20Bitcoin&descAlignY=58&descSize=18" alt="Fabricio Acosta" />
+  Finance student, researcher and builder. I work where economics, Bitcoin and open-source technology meet.
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3FB950&center=true&vCenter=true&width=620&lines=Nostr-native+group+chat+%2B+voice+%E2%9A%A1;Web+of+Trust+infrastructure+for+Nostr;Lightning+apps+that+pay+in+sats;No+email.+No+password.+Just+keys." alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://obelisk.ar"><img src="https://img.shields.io/badge/Obelisk-obelisk.ar-3fb950?style=for-the-badge&labelColor=0d1117" alt="Obelisk" /></a>
-  <a href="https://nostrwot.com"><img src="https://img.shields.io/badge/Nostr%20WoT-nostrwot.com-8b5cf6?style=for-the-badge&labelColor=0d1117" alt="Nostr WoT" /></a>
-  <a href="https://bitbybit.com.ar"><img src="https://img.shields.io/badge/BitByBit-bitbybit.com.ar-f7931a?style=for-the-badge&labelColor=0d1117" alt="BitByBit" /></a>
-  <a href="https://nostrito.com"><img src="https://img.shields.io/badge/Nostrito-nostrito.com-58a6ff?style=for-the-badge&labelColor=0d1117" alt="Nostrito" /></a>
-</p>
-
----
-
-### About me
-
-- I build open, keypair-first apps: identity is a Nostr key, money is Lightning, and there is no backend to trust.
-- Right now: **[Obelisk](https://obelisk.ar)**, a Discord-like group chat where channels, DMs and voice all run over Nostr relays.
-- Also maintaining the **[Nostr Web of Trust](https://nostrwot.com)** toolkit: a browser signer, an SDK and a follow-graph oracle.
-- Based in Argentina, building with the local Bitcoin and Nostr community.
-
----
-
-### Featured projects
-
-<p align="center">
-  <a href="https://github.com/obelisk-app/obelisk"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=obelisk-app&repo=obelisk&theme=transparent&hide_border=true&title_color=3fb950&icon_color=3fb950&text_color=8b949e" alt="Obelisk" /></a>
-  <a href="https://github.com/nostr-wot/nostr-wot-extension"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=nostr-wot&repo=nostr-wot-extension&theme=transparent&hide_border=true&title_color=8b5cf6&icon_color=8b5cf6&text_color=8b949e" alt="Nostr WoT Extension" /></a>
-  <a href="https://github.com/obelisk-app/obelisk-relay"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=obelisk-app&repo=obelisk-relay&theme=transparent&hide_border=true&title_color=3fb950&icon_color=3fb950&text_color=8b949e" alt="Obelisk Relay" /></a>
-  <a href="https://github.com/nostr-wot/nostr-wot"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=nostr-wot&repo=nostr-wot&theme=transparent&hide_border=true&title_color=8b5cf6&icon_color=8b5cf6&text_color=8b949e" alt="Nostr WoT" /></a>
-  <a href="https://github.com/nostr-wot/nostr-wot-oracle"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=nostr-wot&repo=nostr-wot-oracle&theme=transparent&hide_border=true&title_color=8b5cf6&icon_color=8b5cf6&text_color=8b949e" alt="Nostr WoT Oracle" /></a>
-  <a href="https://github.com/obelisk-app/obelisk-sfu"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=obelisk-app&repo=obelisk-sfu&theme=transparent&hide_border=true&title_color=3fb950&icon_color=3fb950&text_color=8b949e" alt="Obelisk SFU" /></a>
-</p>
-
-<details>
-<summary><b>More things I've built</b></summary>
-<br />
-
-| Project | What it is |
-|---|---|
-| [BitByBit Habits](https://habits.bitbybit.com.ar) | Kids earn real Bitcoin by building real habits |
-| [BitByBit Arena](https://arena.bitbybit.com.ar) | Nostr-native challenges with badges and sats |
-| [Cursats](https://cursats.bitbybit.com.ar) | Lightning checkout for teachers and course creators |
-| [BitByBit Run](https://run.bitbybit.com.ar) | 8-runner sprint game where the winner gets zapped |
-| [Nostrito](https://nostrito.com) | Your personal Nostr relay that lives on your device |
-| [Nostr WoT SDK](https://github.com/nostr-wot/nostr-wot-sdk) | JS SDK for trust distance and trust scores |
-| [Obelisk Agents](https://github.com/obelisk-app/obelisk-agents) | Nostr bots and a CLI toolkit for NIP-29 groups |
-| [Nostr PQC](https://github.com/nostr-wot/nostr-pqc) | Index of post-quantum cryptography work on Nostr |
-| [Teclas](https://teclas-web.vercel.app) | Learn the piano keyboard in the browser |
-| [Vault](https://github.com/Fabricio333/vault-native) | Deterministic password manager (Tauri 2) |
-| [Typing Trainer](https://github.com/Fabricio333/typing-trainer) | Dependency-free typing tutor in one HTML file |
-
-</details>
-
----
-
-### Tech I use
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,python,rust,tauri,kotlin,docker,linux,git,vercel&perline=7" alt="Skills" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Nostr-8b5cf6?style=flat-square&logo=nostr&logoColor=white" alt="Nostr" />
+  <a href="https://fabriok.ar"><img src="https://img.shields.io/badge/fabriok.ar-8b7cf6?style=flat-square&logo=googlechrome&logoColor=white" alt="fabriok.ar" /></a>
+  <img src="https://img.shields.io/badge/Nostr-6366f1?style=flat-square&logo=nostr&logoColor=white" alt="Nostr" />
   <img src="https://img.shields.io/badge/Bitcoin-f7931a?style=flat-square&logo=bitcoin&logoColor=white" alt="Bitcoin" />
-  <img src="https://img.shields.io/badge/Lightning-792ee5?style=flat-square&logo=lightning&logoColor=white" alt="Lightning" />
-  <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
-  <img src="https://img.shields.io/badge/mediasoup-1a7f37?style=flat-square" alt="mediasoup" />
+  <img src="https://img.shields.io/badge/Buenos%20Aires-1f1b36?style=flat-square" alt="Buenos Aires" />
 </p>
 
 ---
 
-### GitHub activity
+<h3 align="center">What I'm building</h3>
+
+<a href="https://nostr-wot.com"><img src="assets/projects/nostr-wot.svg" width="104" align="left" alt="Nostr WoT" /></a>
+
+**[Nostr WoT](https://nostr-wot.com)** · *Co-founder, product & growth*<br />
+Trust infrastructure for Nostr: a Rust Web of Trust oracle, a browser extension that is also a signer and Lightning wallet, and a JavaScript SDK.<br />
+<a href="https://github.com/nostr-wot/nostr-wot-extension"><img src="https://img.shields.io/github/stars/nostr-wot/nostr-wot-extension?style=flat-square&color=6366f1&label=extension" alt="stars" /></a>
+<a href="https://github.com/nostr-wot/nostr-wot-oracle"><img src="https://img.shields.io/github/stars/nostr-wot/nostr-wot-oracle?style=flat-square&color=6366f1&label=oracle" alt="stars" /></a>
+<a href="https://github.com/nostr-wot/nostr-wot-sdk"><img src="https://img.shields.io/github/stars/nostr-wot/nostr-wot-sdk?style=flat-square&color=6366f1&label=sdk" alt="stars" /></a>
+
+<br clear="left" />
+
+<a href="https://liberture.com"><img src="assets/projects/liberture.svg" width="104" align="left" alt="Liberture" /></a>
+
+**[Liberture](https://liberture.com)** · *Content & AI*<br />
+A biological operating system: one platform for health, performance and human optimization. I build its knowledge base and AI biohacking assistants.<br />
+<a href="https://liberture.com"><img src="https://img.shields.io/badge/liberture.com-0c0c11?style=flat-square" alt="liberture.com" /></a>
+
+<br clear="left" />
+
+<a href="https://obelisk.ar"><img src="assets/projects/obelisk.svg" width="104" align="left" alt="Obelisk" /></a>
+
+**[Obelisk](https://obelisk.ar)** · *Builder*<br />
+Discord-like group chat on Nostr: NIP-29 channels, encrypted DMs, WebRTC voice and Lightning zaps. No email, no password, no backend.<br />
+<a href="https://github.com/obelisk-app/obelisk"><img src="https://img.shields.io/github/stars/obelisk-app/obelisk?style=flat-square&color=8bc34a&label=stars" alt="stars" /></a>
+<a href="https://obelisk.ar"><img src="https://img.shields.io/badge/obelisk.ar-b4f04c?style=flat-square&labelColor=0b0b0b" alt="obelisk.ar" /></a>
+
+<br clear="left" />
+
+<a href="https://quantakrypto.com"><img src="assets/projects/quantakrypto.svg" width="104" align="left" alt="QuantaKrypto" /></a>
+
+**[QuantaKrypto](https://quantakrypto.com)**<br />
+Be quantum-ready before Q-day: a credential for the post-quantum transition, delivered through post-quantum cryptography.<br />
+<a href="https://quantakrypto.com"><img src="https://img.shields.io/badge/quantakrypto.com-4733e0?style=flat-square" alt="quantakrypto.com" /></a>
+
+<br clear="left" />
+
+<a href="https://wearebitcoin.org"><img src="assets/projects/wearebitcoin.svg" width="104" align="left" alt="WeAreBitcoin" /></a>
+
+**[WeAreBitcoin](https://wearebitcoin.org)** · *Bitcoin & economics writer*<br />
+Spanish-language Bitcoin education. I write about sound money, inflation and monetary policy.<br />
+<a href="https://wearebitcoin.org"><img src="https://img.shields.io/badge/wearebitcoin.org-e96b00?style=flat-square" alt="wearebitcoin.org" /></a>
+
+<br clear="left" />
+
+---
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Fabricio333&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true&title_color=3fb950&icon_color=3fb950&text_color=8b949e" alt="Stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Fabricio333&theme=transparent&hide_border=true&ring=3fb950&fire=f7931a&currStreakLabel=3fb950&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e" alt="Streak" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Fabricio333&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true&title_color=8b7cf6&icon_color=8b7cf6&text_color=8b949e" alt="GitHub stats" />
+  <img height="160" src="https://streak-stats.demolab.com?user=Fabricio333&theme=transparent&hide_border=true&ring=8b7cf6&fire=8b7cf6&currStreakLabel=8b7cf6&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e" alt="Streak" />
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Fabricio333/Fabricio333/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/Fabricio333/Fabricio333/output/github-snake.svg" alt="Contribution snake" />
+    <img width="100%" src="https://raw.githubusercontent.com/Fabricio333/Fabricio333/output/github-snake.svg" alt="Contribution snake" />
   </picture>
 </p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Fabricio333&color=3fb950&style=flat-square&label=profile+views" alt="Profile views" />
-</p>
-
-<!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:1a7f37,100:0d1117&height=110&section=footer" width="100%" alt="" />

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="150" viewBox="0 0 140 150">
+<defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+<style>
+  .float{animation:float 5s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  
+    .dl{stroke-width:8.10;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;animation:dl 5s cubic-bezier(.6,0,.3,1) infinite}
+    @keyframes dl{0%,4%{stroke-dashoffset:1}22%,80%{stroke-dashoffset:0}96%,100%{stroke-dashoffset:1}}
+    .dn{transform-box:fill-box;transform-origin:center;animation:dn 5s ease-out infinite}
+    @keyframes dn{0%,16%{transform:scale(0)}24%{transform:scale(1.3)}30%,78%{transform:scale(1)}92%,100%{transform:scale(0)}}
+    .do{transform-box:fill-box;transform-origin:center;animation:do 5s ease-in-out infinite}
+    @keyframes do{0%,100%{transform:scale(1)}6%{transform:scale(1.25)}12%{transform:scale(1)}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g transform="translate(16 20)"><g class="float">
+  <clipPath id="dc"><rect width="108" height="108" rx="24"/></clipPath>
+  <rect x="4" y="12" width="100" height="104" rx="24" fill="#000" opacity="0.45" filter="url(#shadow)"/>
+  <g clip-path="url(#dc)">
+    <rect width="108" height="108" fill="#EAEDF2"/>
+    <line class="dl" style="animation-delay:0.00s" pathLength="1" x1="27.0" y1="81.0" x2="87.75" y2="62.4375" stroke="#4733E0"/>
+    <line class="dl" style="animation-delay:0.25s" pathLength="1" x1="27.0" y1="81.0" x2="50.625" y2="20.25" stroke="#4733E0"/>
+    <line class="dl" style="animation-delay:0.50s" pathLength="1" x1="27.0" y1="81.0" x2="59.0625" y2="52.3125" stroke="#E0364D"/>
+    <circle class="dn" style="animation-delay:0.00s" cx="87.75" cy="62.4375" r="7.762499999999999" fill="#4733E0"/>
+    <circle class="dn" style="animation-delay:0.25s" cx="50.625" cy="20.25" r="7.762499999999999" fill="#4733E0"/>
+    <circle class="dn" style="animation-delay:0.50s" cx="59.0625" cy="52.3125" r="9.7875" fill="#E0364D"/>
+    <circle class="do" cx="27.0" cy="81.0" r="9.7875" fill="#0E1626"/>
+  </g>
+  <rect x="0.75" y="0.75" width="106.5" height="106.5" rx="23.3" fill="none" stroke="#CDD4DF" stroke-width="1.5"/>
+</g></g>
+</svg>

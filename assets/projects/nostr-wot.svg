@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="150" viewBox="0 0 140 150">
+<defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+<style>
+  .float{animation:float 5s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  
+    .ae1,.ae2{stroke:#fff;stroke-width:2.6;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;opacity:.45;animation:adraw 4.8s ease-out infinite}
+    @keyframes adraw{0%{stroke-dashoffset:1;opacity:.45}22%{stroke-dashoffset:0;opacity:.45}70%{stroke-dashoffset:0;opacity:.45}88%,100%{stroke-dashoffset:0;opacity:0}}
+    .an1{fill:#fff;opacity:.9;transform-box:fill-box;transform-origin:center;animation:apop 4.8s ease-out infinite}
+    .an2{fill:#fff;opacity:.6;transform-box:fill-box;transform-origin:center;animation:apop 4.8s ease-out infinite}
+    @keyframes apop{0%,4%{transform:scale(1)}10%{transform:scale(1.35)}18%,100%{transform:scale(1)}}
+    .acore{fill:#fff;transform-box:fill-box;transform-origin:center;animation:abeat 4.8s ease-in-out infinite}
+    @keyframes abeat{0%{transform:scale(1)}6%{transform:scale(1.22)}14%,100%{transform:scale(1)}}
+    .aring{fill:none;stroke:#fff;stroke-width:2;transform-box:fill-box;transform-origin:center;animation:aring 4.8s ease-out infinite}
+    @keyframes aring{0%{transform:scale(1);opacity:.7}35%,100%{transform:scale(5.5);opacity:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g transform="translate(16 20)"><g class="float">
+  <clipPath id="ac"><rect width="108" height="108" rx="24"/></clipPath>
+  <rect x="4" y="12" width="100" height="104" rx="24" fill="#000" opacity="0.45" filter="url(#shadow)"/>
+  <g clip-path="url(#ac)">
+    <rect width="108" height="108" fill="#6366f1"/>
+    <line class="ae1" style="animation-delay:0.00s" pathLength="1" x1="54.0" y1="54.0" x2="54.0" y2="27.0"/>
+    <line class="ae1" style="animation-delay:0.06s" pathLength="1" x1="54.0" y1="54.0" x2="76.5" y2="38.25"/>
+    <line class="ae1" style="animation-delay:0.12s" pathLength="1" x1="54.0" y1="54.0" x2="81.0" y2="60.75"/>
+    <line class="ae1" style="animation-delay:0.18s" pathLength="1" x1="54.0" y1="54.0" x2="67.5" y2="78.75"/>
+    <line class="ae1" style="animation-delay:0.24s" pathLength="1" x1="54.0" y1="54.0" x2="38.25" y2="76.5"/>
+    <line class="ae1" style="animation-delay:0.30s" pathLength="1" x1="54.0" y1="54.0" x2="27.0" y2="49.5"/>
+    <line class="ae2" style="animation-delay:0.45s" pathLength="1" x1="54.0" y1="27.0" x2="40.5" y2="13.5"/>
+    <line class="ae2" style="animation-delay:0.50s" pathLength="1" x1="54.0" y1="27.0" x2="67.5" y2="13.5"/>
+    <line class="ae2" style="animation-delay:0.55s" pathLength="1" x1="76.5" y1="38.25" x2="94.5" y2="27.0"/>
+    <line class="ae2" style="animation-delay:0.60s" pathLength="1" x1="81.0" y1="60.75" x2="96.75" y2="67.5"/>
+    <line class="ae2" style="animation-delay:0.65s" pathLength="1" x1="67.5" y1="78.75" x2="78.75" y2="94.5"/>
+    <line class="ae2" style="animation-delay:0.70s" pathLength="1" x1="38.25" y1="76.5" x2="27.0" y2="94.5"/>
+    <line class="ae2" style="animation-delay:0.75s" pathLength="1" x1="27.0" y1="49.5" x2="11.25" y2="40.5"/>
+    <circle class="an2" style="animation-delay:0.75s" cx="40.5" cy="13.5" r="5.625"/>
+    <circle class="an2" style="animation-delay:0.80s" cx="67.5" cy="13.5" r="5.625"/>
+    <circle class="an2" style="animation-delay:0.85s" cx="94.5" cy="27.0" r="5.625"/>
+    <circle class="an2" style="animation-delay:0.90s" cx="96.75" cy="67.5" r="5.625"/>
+    <circle class="an2" style="animation-delay:0.95s" cx="78.75" cy="94.5" r="5.625"/>
+    <circle class="an2" style="animation-delay:1.00s" cx="27.0" cy="94.5" r="5.625"/>
+    <circle class="an2" style="animation-delay:1.05s" cx="11.25" cy="40.5" r="5.625"/>
+    <circle class="an1" style="animation-delay:0.30s" cx="54.0" cy="27.0" r="7.875"/>
+    <circle class="an1" style="animation-delay:0.36s" cx="76.5" cy="38.25" r="7.875"/>
+    <circle class="an1" style="animation-delay:0.42s" cx="81.0" cy="60.75" r="7.875"/>
+    <circle class="an1" style="animation-delay:0.48s" cx="67.5" cy="78.75" r="7.875"/>
+    <circle class="an1" style="animation-delay:0.54s" cx="38.25" cy="76.5" r="7.875"/>
+    <circle class="an1" style="animation-delay:0.60s" cx="27.0" cy="49.5" r="7.875"/>
+    <circle class="aring" cx="54.0" cy="54.0" r="11.25"/>
+    <circle class="acore" cx="54.0" cy="54.0" r="11.25"/>
+  </g>
+  <rect x="0.75" y="0.75" width="106.5" height="106.5" rx="23.3" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+</g></g>
+</svg>
