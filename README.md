@@ -15,6 +15,15 @@
 
 <h3 align="center">What I'm building</h3>
 
+<a href="https://obelisk.ar"><img src="assets/projects/obelisk.svg" width="104" align="left" alt="Obelisk" /></a>
+
+**[Obelisk](https://obelisk.ar)** · *Builder*<br />
+Discord-like group chat on Nostr: NIP-29 channels, encrypted DMs, WebRTC voice and Lightning zaps. No email, no password, no backend.<br />
+<a href="https://github.com/obelisk-app/obelisk"><img src="https://img.shields.io/github/stars/obelisk-app/obelisk?style=flat-square&color=8bc34a&label=stars" alt="stars" /></a>
+<a href="https://obelisk.ar"><img src="https://img.shields.io/badge/obelisk.ar-b4f04c?style=flat-square&labelColor=0b0b0b" alt="obelisk.ar" /></a>
+
+<br clear="left" />
+
 <a href="https://nostr-wot.com"><img src="assets/projects/nostr-wot.svg" width="104" align="left" alt="Nostr WoT" /></a>
 
 **[Nostr WoT](https://nostr-wot.com)** · *Co-founder, product & growth*<br />
@@ -30,15 +39,6 @@ Trust infrastructure for Nostr: a Rust Web of Trust oracle, a browser extension 
 **[Liberture](https://liberture.com)** · *Content & AI*<br />
 A biological operating system: one platform for health, performance and human optimization. I build its knowledge base and AI biohacking assistants.<br />
 <a href="https://liberture.com"><img src="https://img.shields.io/badge/liberture.com-0c0c11?style=flat-square" alt="liberture.com" /></a>
-
-<br clear="left" />
-
-<a href="https://obelisk.ar"><img src="assets/projects/obelisk.svg" width="104" align="left" alt="Obelisk" /></a>
-
-**[Obelisk](https://obelisk.ar)** · *Builder*<br />
-Discord-like group chat on Nostr: NIP-29 channels, encrypted DMs, WebRTC voice and Lightning zaps. No email, no password, no backend.<br />
-<a href="https://github.com/obelisk-app/obelisk"><img src="https://img.shields.io/github/stars/obelisk-app/obelisk?style=flat-square&color=8bc34a&label=stars" alt="stars" /></a>
-<a href="https://obelisk.ar"><img src="https://img.shields.io/badge/obelisk.ar-b4f04c?style=flat-square&labelColor=0b0b0b" alt="obelisk.ar" /></a>
 
 <br clear="left" />
 
